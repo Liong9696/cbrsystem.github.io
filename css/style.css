@@ -1,0 +1,165 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*---------Navigation--------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+    text-decoration: none;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.menu-active
+{
+    color: #007bff!important;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 8px;
+    border-bottom: 1px solid #007bff;
+}
+
+.text-black 
+{
+    color: #000; 
+}
+
+p
+{
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.fade-in
+{
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn
+{
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.carousel-caption
+{
+    position: absolute;
+    transform: translate(70%,-100%);
+    text-align: justify;
+    width: 500px;
+}
+
+.search-box
+{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    background: #2f3640;
+    height: 60px;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.search-btn
+{
+    color: white;
+    float: right;
+    height: 40px;
+    transform: translate(10%,-25%);
+    padding: 10px 20px;
+    border-radius: 40px;
+    border-color: white;
+    border: 2px solid;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-btn:focus
+{
+    color: #007bff;
+    border: 2px solid;
+    box-shadow: 0px 0px 0px 1px;
+    outline: none;
+}
+
+.search-btn:hover
+{
+    color: #007bff;
+}
+
+.search-txt
+{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 20px;
+    width: 240px;
+}
+
+.search-txt:-webkit-autofill
+{
+    box-shadow: 0 0 0px 9999px #2f3640 inset;
+    -webkit-text-fill-color: white;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.d-block
+{
+    width: 100%;
+}
+
+.footer-copyright
+{
+    color: black;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

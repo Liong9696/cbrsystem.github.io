@@ -1,0 +1,53 @@
+body
+{
+    font-family: 'Times New Roman';
+}
+
+.problem-container 
+{
+    width: 300px;
+    padding: 0px 30px;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+
+a:hover
+{
+    color: blue !important;
+    position: relative;
+    text-decoration: underline;
+    transform: translate(300px) skew(-15deg);
+    transition: .7s;
+}
+
+.back
+{
+    color: black;
+    border-radius: 5px;
+    border-color: #4caff0;
+}
+
+h1
+{
+    padding-top: 30px;
+    padding-left: 85px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+.problem-box
+{
+    padding-left: 50px;
+    width: 800px;
+}
+
+p
+{
+    padding-left: 50px;
+    width: 800px;
+}

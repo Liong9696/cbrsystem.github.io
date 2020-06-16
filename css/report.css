@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*---------Navigation--------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+    text-decoration: none;
+}
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.menu-active
+{
+    color: #007bff!important;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 8px;
+    border-bottom: 1px solid #007bff;
+}
+
+th
+{
+    font-family: 'Times New Roman';
+    font-size: 24px;
+}
+
+.table
+{
+    margin-top: 0px;
+    margin-right: 60px;
+    border-bottom: 2px solid;
+}
+
+table.table
+{
+    width: 60%;
+    margin-left: 250px;
+    margin-right: 50px;
+}
+
+.table thead tr th
+{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.table, th, td
+{
+    border-bottom: 2px solid white;
+}
+
+p
+{
+    text-align: center;
+    font-family: 'Times New Roman';
+    padding-top: 20px;
+}
+
+.form
+{
+    margin-top: 120px;
+    margin-right: 50px;
+    font-family: 'Times New Roman';
+}
+
+b
+{
+    padding: 20px;
+}
+
+div.ui-datepicker
+{
+    height: 280px;
+    width: 320px;
+    font-size:16px;
+}
+
+.btn
+{
+    margin-left: 40px;
+}

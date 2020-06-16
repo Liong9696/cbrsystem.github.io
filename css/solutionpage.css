@@ -1,0 +1,54 @@
+body
+{
+    font-family: 'Times New Roman';
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    padding: 10px 20px;
+    margin-left: 70px;
+}
+
+a:hover
+{
+    color: white !important;
+    background-color: #4caff0;
+    position: relative;
+    transform: translate(300px) skew(-15deg);
+    transition: .7s;
+}
+
+.back
+{
+    color: black;
+    border-radius: 5px;
+    border-color: #4caff0;
+}
+
+h1
+{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+.solution-container
+{
+    padding: 0px 30px;
+}
+
+.solution-box
+{
+    padding-left: 30px;
+    width: 800px;
+}
+
+p
+{
+    padding-left: 40px;
+    width: 800px;
+}
